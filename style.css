@@ -12,7 +12,7 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    padding: 40px 60px; /* Prüfe diesen Wert, passe ihn bei Bedarf an */
+    padding: 40px 100px; /* Prüfe diesen Wert, passe ihn bei Bedarf an */
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
