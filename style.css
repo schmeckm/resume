@@ -61,14 +61,21 @@ ul {
 
 /* Header und Navigation */
 header {
-    background: #34495e;
+    /* background-image und background-color können kombiniert werden: */
+    background-image: url('images/header-bg.jpg'); /* <-- PFAD ZU DEINEM BILD ANPASSEN! */
+    background-color: #34495e; /* Optional: Eine Fallback-Farbe oder überlagereffekt */
+    background-blend-mode: multiply; /* Optional: Macht das Bild dunkler und mischt mit der Farbe */
+    background-size: cover; /* Sorgt dafür, dass das Bild den ganzen Header bedeckt */
+    background-position: center; /* Zentriert das Bild */
+    background-repeat: no-repeat; /* Verhindert Wiederholungen des Bildes */
+
     color: #fff;
     padding: 1rem 0;
     text-align: center;
-    position: sticky; /* Navigationsleiste fixiert */
+    position: sticky;
     top: 0;
     width: 100%;
-    z-index: 1000; /* Stellt sicher, dass die Navi über anderen Inhalten liegt */
+    z-index: 1000;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
